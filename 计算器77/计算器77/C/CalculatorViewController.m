@@ -116,8 +116,6 @@
         self.calView.topLabel.text = [self.calArray componentsJoinedByString:@""];
         return;
     }
-    
-    
     else if ([title isEqualToString:@"("]) {
         NSString* last = [self.calArray lastObject];
         if (last && ![self isOperator:last] && ![last isEqualToString:@"("]) {

@@ -1,0 +1,6 @@
+platform :ios, '12.0'
+
+target '天气难报' do	
+  pod 'AFNetworking', '~> 4.0'
+  pod 'LookinServer', :configurations => ['Debug']
+end

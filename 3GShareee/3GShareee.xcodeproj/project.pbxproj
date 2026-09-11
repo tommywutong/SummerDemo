@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		964B971543B8A23DC04C3F4A /* libPods-3GShareee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A7E0FC74A734A4B2D00094 /* libPods-3GShareee.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C93588F2E2814C2005A614D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C93586B2E2814C0005A614D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9358722E2814C0005A614D;
+			remoteInfo = 3GShareee;
+		};
+		4C9358992E2814C2005A614D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C93586B2E2814C0005A614D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9358722E2814C0005A614D;
+			remoteInfo = 3GShareee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15365B1B4974ADAE69E503AD /* Pods-3GShareee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3GShareee.debug.xcconfig"; path = "Target Support Files/Pods-3GShareee/Pods-3GShareee.debug.xcconfig"; sourceTree = "<group>"; };
+		4C9358732E2814C0005A614D /* 3GShareee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3GShareee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C93588E2E2814C2005A614D /* 3GShareeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3GShareeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9358982E2814C2005A614D /* 3GShareeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3GShareeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A7E0FC74A734A4B2D00094 /* libPods-3GShareee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3GShareee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C971384078113BE8E963E087 /* Pods-3GShareee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3GShareee.release.xcconfig"; path = "Target Support Files/Pods-3GShareee/Pods-3GShareee.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4C9358A02E2814C2005A614D /* Exceptions for "3GShareee" folder in "3GShareee" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4C9358722E2814C0005A614D /* 3GShareee */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4C9358752E2814C0005A614D /* 3GShareee */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4C9358A02E2814C2005A614D /* Exceptions for "3GShareee" folder in "3GShareee" target */,
+			);
+			path = 3GShareee;
+			sourceTree = "<group>";
+		};
+		4C9358912E2814C2005A614D /* 3GShareeeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 3GShareeeTests;
+			sourceTree = "<group>";
+		};
+		4C93589B2E2814C2005A614D /* 3GShareeeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 3GShareeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9358702E2814C0005A614D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964B971543B8A23DC04C3F4A /* libPods-3GShareee.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C93588B2E2814C2005A614D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9358952E2814C2005A614D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C93586A2E2814C0005A614D = {
+			isa = PBXGroup;
+			children = (
+				4C9358752E2814C0005A614D /* 3GShareee */,
+				4C9358912E2814C2005A614D /* 3GShareeeTests */,
+				4C93589B2E2814C2005A614D /* 3GShareeeUITests */,
+				4C9358742E2814C0005A614D /* Products */,
+				F8DE943C5562B88C93C836EE /* Pods */,
+				C8815C3FB64A37B1BDE6CE12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C9358742E2814C0005A614D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C9358732E2814C0005A614D /* 3GShareee.app */,
+				4C93588E2E2814C2005A614D /* 3GShareeeTests.xctest */,
+				4C9358982E2814C2005A614D /* 3GShareeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8815C3FB64A37B1BDE6CE12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94A7E0FC74A734A4B2D00094 /* libPods-3GShareee.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8DE943C5562B88C93C836EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15365B1B4974ADAE69E503AD /* Pods-3GShareee.debug.xcconfig */,
+				C971384078113BE8E963E087 /* Pods-3GShareee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C9358722E2814C0005A614D /* 3GShareee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9358A12E2814C2005A614D /* Build configuration list for PBXNativeTarget "3GShareee" */;
+			buildPhases = (
+				F080C19155B01377EFD1ACD6 /* [CP] Check Pods Manifest.lock */,
+				4C93586F2E2814C0005A614D /* Sources */,
+				4C9358702E2814C0005A614D /* Frameworks */,
+				4C9358712E2814C0005A614D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4C9358752E2814C0005A614D /* 3GShareee */,
+			);
+			name = 3GShareee;
+			productName = 3GShareee;
+			productReference = 4C9358732E2814C0005A614D /* 3GShareee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C93588D2E2814C2005A614D /* 3GShareeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9358A62E2814C2005A614D /* Build configuration list for PBXNativeTarget "3GShareeeTests" */;
+			buildPhases = (
+				4C93588A2E2814C2005A614D /* Sources */,
+				4C93588B2E2814C2005A614D /* Frameworks */,
+				4C93588C2E2814C2005A614D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9358902E2814C2005A614D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4C9358912E2814C2005A614D /* 3GShareeeTests */,
+			);
+			name = 3GShareeeTests;
+			productName = 3GShareeeTests;
+			productReference = 4C93588E2E2814C2005A614D /* 3GShareeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C9358972E2814C2005A614D /* 3GShareeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9358A92E2814C2005A614D /* Build configuration list for PBXNativeTarget "3GShareeeUITests" */;
+			buildPhases = (
+				4C9358942E2814C2005A614D /* Sources */,
+				4C9358952E2814C2005A614D /* Frameworks */,
+				4C9358962E2814C2005A614D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C93589A2E2814C2005A614D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4C93589B2E2814C2005A614D /* 3GShareeeUITests */,
+			);
+			name = 3GShareeeUITests;
+			productName = 3GShareeeUITests;
+			productReference = 4C9358982E2814C2005A614D /* 3GShareeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C93586B2E2814C0005A614D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					4C9358722E2814C0005A614D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					4C93588D2E2814C2005A614D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 4C9358722E2814C0005A614D;
+					};
+					4C9358972E2814C2005A614D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 4C9358722E2814C0005A614D;
+					};
+				};
+			};
+			buildConfigurationList = 4C93586E2E2814C0005A614D /* Build configuration list for PBXProject "3GShareee" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C93586A2E2814C0005A614D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4C9358742E2814C0005A614D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C9358722E2814C0005A614D /* 3GShareee */,
+				4C93588D2E2814C2005A614D /* 3GShareeeTests */,
+				4C9358972E2814C2005A614D /* 3GShareeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C9358712E2814C0005A614D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C93588C2E2814C2005A614D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9358962E2814C2005A614D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F080C19155B01377EFD1ACD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3GShareee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C93586F2E2814C0005A614D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C93588A2E2814C2005A614D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9358942E2814C2005A614D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C9358902E2814C2005A614D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9358722E2814C0005A614D /* 3GShareee */;
+			targetProxy = 4C93588F2E2814C2005A614D /* PBXContainerItemProxy */;
+		};
+		4C93589A2E2814C2005A614D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9358722E2814C0005A614D /* 3GShareee */;
+			targetProxy = 4C9358992E2814C2005A614D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C9358A22E2814C2005A614D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15365B1B4974ADAE69E503AD /* Pods-3GShareee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JASSJ2R9D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 3GShareee/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-GShareee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C9358A32E2814C2005A614D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C971384078113BE8E963E087 /* Pods-3GShareee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JASSJ2R9D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 3GShareee/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-GShareee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C9358A42E2814C2005A614D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JASSJ2R9D6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C9358A52E2814C2005A614D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JASSJ2R9D6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C9358A72E2814C2005A614D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JASSJ2R9D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-GShareeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3GShareee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3GShareee";
+			};
+			name = Debug;
+		};
+		4C9358A82E2814C2005A614D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JASSJ2R9D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-GShareeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3GShareee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3GShareee";
+			};
+			name = Release;
+		};
+		4C9358AA2E2814C2005A614D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JASSJ2R9D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-GShareeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3GShareee;
+			};
+			name = Debug;
+		};
+		4C9358AB2E2814C2005A614D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JASSJ2R9D6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.-GShareeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3GShareee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C93586E2E2814C0005A614D /* Build configuration list for PBXProject "3GShareee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9358A42E2814C2005A614D /* Debug */,
+				4C9358A52E2814C2005A614D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9358A12E2814C2005A614D /* Build configuration list for PBXNativeTarget "3GShareee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9358A22E2814C2005A614D /* Debug */,
+				4C9358A32E2814C2005A614D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9358A62E2814C2005A614D /* Build configuration list for PBXNativeTarget "3GShareeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9358A72E2814C2005A614D /* Debug */,
+				4C9358A82E2814C2005A614D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9358A92E2814C2005A614D /* Build configuration list for PBXNativeTarget "3GShareeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9358AA2E2814C2005A614D /* Debug */,
+				4C9358AB2E2814C2005A614D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C93586B2E2814C0005A614D /* Project object */;
+}
